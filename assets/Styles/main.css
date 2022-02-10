@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../img/bg.jpeg) no-repeat center/cover;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+div {
+  background: rgba(95, 158, 160, 0.788);
+  padding: 5% 10%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 50px #f3e7a2;
+  text-align: center;
+}
+
+h1, p {
+  color: #bed8e2;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 5px 5px 3px #184455;
+  padding: 2%;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+#zodiacMonth {
+  width: 50%;
+  height: 40px;
+  background-color: antiquewhite;
+  box-shadow: 1px 1px 50px #f3e7a2;
+  border-radius: 2px;
+  margin-bottom: 5%;
+  margin-right: 1%;
+}
+
+#button {
+  padding: 1% 4%;
+  color: antiquewhite;
+  background-color: darkcyan;
+  font-size: 1.2rem;
+  box-shadow: 1px 1px 50px #f3e7a2;
+}
+
+#outputZodiac {
+  padding: 2% auto;
+  margin-bottom: 10%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#outputZodiac h2, #outputZodiac p {
+  color: rgba(194, 229, 243, 0.808);
+  text-shadow: 2px 2px 2px #184455;
+}
+
+#outputZodiac p {
+  font-size: 1.3rem;
+}/*# sourceMappingURL=main.css.map */
